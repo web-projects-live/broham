@@ -1,0 +1,707 @@
+{
+  "characters": {
+    "bigbro": {
+      "name": "Big Brother",
+      "description": "A character with a boar head wearing overalls and wielding a war axe",
+      "animations": {
+        "spellcast": {
+          "animation": "spellcast",
+          "file": "spellcast.png",
+          "total_width": 448,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "thrust": {
+          "animation": "thrust",
+          "file": "thrust.png",
+          "total_width": 512,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 4,
+          "num_directions": 1,
+          "frames_per_direction": 4,
+          "total_frames": 4
+        },
+        "walk": {
+          "animation": "walk",
+          "file": "walk.png",
+          "total_width": 576,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 4,
+          "num_directions": 1,
+          "frames_per_direction": 4,
+          "total_frames": 4
+        },
+        "slash": {
+          "animation": "slash",
+          "file": "slash.png",
+          "total_width": 384,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "shoot": {
+          "animation": "shoot",
+          "file": "shoot.png",
+          "total_width": 832,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 6,
+          "num_directions": 1,
+          "frames_per_direction": 6,
+          "total_frames": 6
+        },
+        "hurt": {
+          "animation": "hurt",
+          "file": "hurt.png",
+          "total_width": 384,
+          "total_height": 64,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "climb": {
+          "animation": "climb",
+          "file": "climb.png",
+          "total_width": 384,
+          "total_height": 64,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "idle": {
+          "animation": "idle",
+          "file": "idle.png",
+          "total_width": 128,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 1,
+          "num_directions": 1,
+          "frames_per_direction": 1,
+          "total_frames": 1
+        },
+        "jump": {
+          "animation": "jump",
+          "file": "jump.png",
+          "total_width": 320,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 2,
+          "num_directions": 1,
+          "frames_per_direction": 2,
+          "total_frames": 2
+        },
+        "sit": {
+          "animation": "sit",
+          "file": "sit.png",
+          "total_width": 192,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 1,
+          "num_directions": 1,
+          "frames_per_direction": 1,
+          "total_frames": 1
+        },
+        "emote": {
+          "animation": "emote",
+          "file": "emote.png",
+          "total_width": 192,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 1,
+          "num_directions": 1,
+          "frames_per_direction": 1,
+          "total_frames": 1
+        },
+        "run": {
+          "animation": "run",
+          "file": "run.png",
+          "total_width": 512,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 4,
+          "num_directions": 1,
+          "frames_per_direction": 4,
+          "total_frames": 4
+        },
+        "combat_idle": {
+          "animation": "combat_idle",
+          "file": "combat_idle.png",
+          "total_width": 128,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 1,
+          "num_directions": 1,
+          "frames_per_direction": 1,
+          "total_frames": 1
+        },
+        "backslash": {
+          "animation": "backslash",
+          "file": "backslash.png",
+          "total_width": 832,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 6,
+          "num_directions": 1,
+          "frames_per_direction": 6,
+          "total_frames": 6
+        },
+        "halfslash": {
+          "animation": "halfslash",
+          "file": "halfslash.png",
+          "total_width": 448,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "slash_oversize": {
+          "animation": "slash_oversize",
+          "file": "slash_oversize.png",
+          "total_width": 1152,
+          "total_height": 768,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 9,
+          "num_directions": 3,
+          "frames_per_direction": 3,
+          "total_frames": 9,
+          "custom": true
+        }
+      },
+      "frame_dimensions": {
+        "width": 128,
+        "height": 256
+      },
+      "credits": [
+        {
+          "fileName": "body/bodies/male/olive.png",
+          "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+          "authors": "bluecarrot16,JaidynReiman,Benjamin K. Smith (BenCreating),Evert,Eliza Wyatt (ElizaWy),TheraHedwig,MuffinElZangano,Durrani,Johannes Sj\u00f6lund (wulax),Stephen Challener (Redshrike)",
+          "urls": "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles,https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,https://opengameart.org/content/lpc-male-jumping-animation-by-durrani,https://opengameart.org/content/lpc-runcycle-and-diagonal-walkcycle,https://opengameart.org/content/lpc-revised-character-basics,https://opengameart.org/content/lpc-be-seated,https://opengameart.org/content/lpc-runcycle-for-male-muscular-and-pregnant-character-bases-with-modular-heads,https://opengameart.org/content/lpc-jump-expanded,https://opengameart.org/content/lpc-character-bases",
+          "notes": "see details at https://opengameart.org/content/lpc-character-bases; 'Thick' Male Revised Run/Climb by JaidynReiman (based on ElizaWy's LPC Revised)"
+        },
+        {
+          "fileName": "head/heads/boarman/adult/olive.png",
+          "licenses": "CC-BY 3.0,GPL 2.0",
+          "authors": "Benjamin K. Smith (BenCreating),Daniel Eddeland (daneeklu)",
+          "urls": "https://opengameart.org/content/lpc-style-farm-animals,https://opengameart.org/content/lpc-wild-boar,https://opengameart.org/content/lpc-boarman",
+          "notes": "pig by daneeklu adapted to boarman by BenCreating, placed to v3 bases by bluecarrot16"
+        },
+        {
+          "fileName": "arms/gloves/male/red.png",
+          "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+          "authors": "Michael Whitlock (bigbeargames),Matthew Krohn (makrohn),Johannes Sj\u00f6lund (wulax),bluecarrot16,JaidynReiman",
+          "urls": "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,http://opengameart.org/content/lpc-clothing-updates",
+          "notes": "metal gloves by wulax, recolors by bigbeargames, adapted to v3 bases by bluecarrot16, added to expanded animations by JaidynReiman"
+        },
+        {
+          "fileName": "torso/aprons/overalls/male/blue.png",
+          "licenses": "OGA-BY 3.0,GPL 3.0",
+          "authors": "ElizaWy,bluecarrot16,JaidynReiman",
+          "urls": "https://opengameart.org/content/lpc-revised-character-basics,http://opengameart.org/content/lpc-clothing-updates",
+          "notes": "original overalls by ElizaWy, extended to all animation frames, adapted from teen to male base, and edited for v3 bases by bluecarrot16; extended to combat animations by JaidynReiman"
+        },
+        {
+          "fileName": "legs/pants/male/blue.png",
+          "licenses": "OGA-BY 3.0,GPL 3.0,CC-BY-SA 3.0",
+          "authors": "bluecarrot16,JaidynReiman,ElizaWy,Matthew Krohn (makrohn),Johannes Sj\u00f6lund (wulax),Stephen Challener (Redshrike)",
+          "urls": "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles,https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,https://opengameart.org/content/lpc-expanded-pants",
+          "notes": "original male pants by wulax, recolors and edits to v3 base by bluecarrot16, climb/jump/run/sit/emotes/revised combat by JaidynReiman based on ElizaWy's LPC Revised"
+        },
+        {
+          "fileName": "feet/shoes/basic/male/navy.png",
+          "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+          "authors": "JaidynReiman,bluecarrot16,Johannes Sj\u00f6lund (wulax)",
+          "urls": "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,http://opengameart.org/content/lpc-clothing-updates,https://opengameart.org/content/lpc-expanded-socks-shoes",
+          "notes": "original by wulax, edited for v3 base by bluecarrot16, Jump/Sit/Emote/Run/Revised Combat by JaidynReiman"
+        },
+        {
+          "fileName": "weapon/blunt/waraxe/behind/waraxe.png",
+          "licenses": "CC-BY-SA 3.0,GPL 3.0",
+          "authors": "Benjamin K. Smith (BenCreating),bluecarrot16,Sander Frenken (castelonia)",
+          "urls": "https://opengameart.org/content/lpc-medieval-weapons",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/blunt/waraxe/waraxe.png",
+          "licenses": "CC-BY-SA 3.0,GPL 3.0",
+          "authors": "Benjamin K. Smith (BenCreating),bluecarrot16,Sander Frenken (castelonia)",
+          "urls": "https://opengameart.org/content/lpc-medieval-weapons",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/blunt/waraxe/attack_slash/behind/waraxe.png",
+          "licenses": "CC-BY-SA 3.0,GPL 3.0",
+          "authors": "Benjamin K. Smith (BenCreating),bluecarrot16,Sander Frenken (castelonia)",
+          "urls": "https://opengameart.org/content/lpc-medieval-weapons",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/blunt/waraxe/attack_slash/waraxe.png",
+          "licenses": "CC-BY-SA 3.0,GPL 3.0",
+          "authors": "Benjamin K. Smith (BenCreating),bluecarrot16,Sander Frenken (castelonia)",
+          "urls": "https://opengameart.org/content/lpc-medieval-weapons",
+          "notes": ""
+        }
+      ]
+    },
+    "littlebro": {
+      "name": "Little Brother",
+      "description": "A teenage character with a pig head wearing formal pants and wielding a sword",
+      "animations": {
+        "spellcast": {
+          "animation": "spellcast",
+          "file": "spellcast.png",
+          "total_width": 448,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "thrust": {
+          "animation": "thrust",
+          "file": "thrust.png",
+          "total_width": 512,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 4,
+          "num_directions": 1,
+          "frames_per_direction": 4,
+          "total_frames": 4
+        },
+        "walk": {
+          "animation": "walk",
+          "file": "walk.png",
+          "total_width": 576,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 4,
+          "num_directions": 1,
+          "frames_per_direction": 4,
+          "total_frames": 4
+        },
+        "slash": {
+          "animation": "slash",
+          "file": "slash.png",
+          "total_width": 384,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "shoot": {
+          "animation": "shoot",
+          "file": "shoot.png",
+          "total_width": 832,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 6,
+          "num_directions": 1,
+          "frames_per_direction": 6,
+          "total_frames": 6
+        },
+        "hurt": {
+          "animation": "hurt",
+          "file": "hurt.png",
+          "total_width": 384,
+          "total_height": 64,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "climb": {
+          "animation": "climb",
+          "file": "climb.png",
+          "total_width": 384,
+          "total_height": 64,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "idle": {
+          "animation": "idle",
+          "file": "idle.png",
+          "total_width": 128,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 1,
+          "num_directions": 1,
+          "frames_per_direction": 1,
+          "total_frames": 1
+        },
+        "jump": {
+          "animation": "jump",
+          "file": "jump.png",
+          "total_width": 320,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 2,
+          "num_directions": 1,
+          "frames_per_direction": 2,
+          "total_frames": 2
+        },
+        "sit": {
+          "animation": "sit",
+          "file": "sit.png",
+          "total_width": 192,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 1,
+          "num_directions": 1,
+          "frames_per_direction": 1,
+          "total_frames": 1
+        },
+        "emote": {
+          "animation": "emote",
+          "file": "emote.png",
+          "total_width": 192,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 1,
+          "num_directions": 1,
+          "frames_per_direction": 1,
+          "total_frames": 1
+        },
+        "run": {
+          "animation": "run",
+          "file": "run.png",
+          "total_width": 512,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 4,
+          "num_directions": 1,
+          "frames_per_direction": 4,
+          "total_frames": 4
+        },
+        "combat_idle": {
+          "animation": "combat_idle",
+          "file": "combat_idle.png",
+          "total_width": 128,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 1,
+          "num_directions": 1,
+          "frames_per_direction": 1,
+          "total_frames": 1
+        },
+        "backslash": {
+          "animation": "backslash",
+          "file": "backslash.png",
+          "total_width": 832,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 6,
+          "num_directions": 1,
+          "frames_per_direction": 6,
+          "total_frames": 6
+        },
+        "halfslash": {
+          "animation": "halfslash",
+          "file": "halfslash.png",
+          "total_width": 448,
+          "total_height": 256,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 3,
+          "num_directions": 1,
+          "frames_per_direction": 3,
+          "total_frames": 3
+        },
+        "slash_128": {
+          "animation": "slash_128",
+          "file": "slash_128.png",
+          "total_width": 768,
+          "total_height": 512,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 6,
+          "num_directions": 2,
+          "frames_per_direction": 3,
+          "total_frames": 6,
+          "custom": true
+        },
+        "backslash_128": {
+          "animation": "backslash_128",
+          "file": "backslash_128.png",
+          "total_width": 1664,
+          "total_height": 512,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 13,
+          "num_directions": 2,
+          "frames_per_direction": 6,
+          "total_frames": 13,
+          "custom": true
+        },
+        "halfslash_128": {
+          "animation": "halfslash_128",
+          "file": "halfslash_128.png",
+          "total_width": 768,
+          "total_height": 512,
+          "frame_width": 128,
+          "frame_height": 256,
+          "num_frames": 6,
+          "num_directions": 2,
+          "frames_per_direction": 3,
+          "total_frames": 6,
+          "custom": true
+        }
+      },
+      "frame_dimensions": {
+        "width": 128,
+        "height": 256
+      },
+      "credits": [
+        {
+          "fileName": "body/bodies/teen/light.png",
+          "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+          "authors": "bluecarrot16,Evert,TheraHedwig,Benjamin K. Smith (BenCreating),MuffinElZangano,Durrani,Pierre Vigier (pvigier),Eliza Wyatt (ElizaWy),Matthew Krohn (makrohn),Johannes Sj\u00f6lund (wulax),Stephen Challener (Redshrike)",
+          "urls": "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles,https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,https://opengameart.org/content/lpc-ladies,https://opengameart.org/content/lpc-teen-unisex-base-clothes,https://opengameart.org/content/lpc-jump-expanded,https://opengameart.org/content/lpc-revised-character-basics,https://opengameart.org/content/lpc-be-seated,https://gitlab.com/vagabondgame/lpc-characters,https://opengameart.org/content/lpc-male-jumping-animation-by-durrani,https://opengameart.org/content/lpc-jump-expanded",
+          "notes": "see details at https://opengameart.org/content/lpc-character-bases; 'Thick' Male Revised Run/Climb by JaidynReiman (based on ElizaWy's LPC Revised)"
+        },
+        {
+          "fileName": "head/heads/pig/adult/light.png",
+          "licenses": "CC-BY 3.0,GPL 3.0",
+          "authors": "bluecarrot16,Daniel Eddeland (daneeklu)",
+          "urls": "https://opengameart.org/content/lpc-style-farm-animals,http://opengameart.org/content/lpc-folk",
+          "notes": "original pig by daneeklu, adapted to modular head by bluecarrot16"
+        },
+        {
+          "fileName": "torso/clothes/sleeveless/sleeveless2/teen/sky.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy,JaidynReiman,Stephen Challener (Redshrike),Johannes Sj\u00f6lund (wulax)",
+          "urls": "http://opengameart.org/content/lpc-revised-character-basics,https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": "original by ElizaWy; sleeveless adapted from original by JaidynReiman"
+        },
+        {
+          "fileName": "legs/formal/thin/teal.png",
+          "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+          "authors": "bluecarrot16,JaidynReiman,ElizaWy,Johannes Sj\u00f6lund (wulax),Stephen Challener (Redshrike)",
+          "urls": "https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles,https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,https://opengameart.org/content/lpc-2-characters,https://opengameart.org/content/lpc-gentleman,https://opengameart.org/content/lpc-expanded-pants",
+          "notes": "Original pants by Stephen Challener (Redshrike), thrust/shoot bases by Wulax, Formal Pants by Bluecarrot16, Female/Thin version by JaidynReiman"
+        },
+        {
+          "fileName": "feet/shoes/basic/thin/gray.png",
+          "licenses": "OGA-BY 3.0,CC-BY-SA 3.0,GPL 3.0",
+          "authors": "JaidynReiman,Joe White,Johannes Sj\u00f6lund (wulax)",
+          "urls": "https://opengameart.org/content/lpc-medieval-fantasy-character-sprites,http://opengameart.org/content/lpc-clothing-updates,https://opengameart.org/content/lpc-expanded-socks-shoes",
+          "notes": "original by wulax, edited for female base by Joe White, edited for v3 base by bluecarrot16, Jump/Sit/Emote/Run/Revised Combat by JaidynReiman"
+        },
+        {
+          "fileName": "weapon/sword/arming/universal/fg/gold.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy; walk and down by JaidynReiman",
+          "urls": "https://github.com/ElizaWy/LPC/tree/main/Characters/Props/Sword%2001%20-%20Arming%20Sword,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/sword/arming/universal/bg/gold.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy; walk and down by JaidynReiman",
+          "urls": "https://github.com/ElizaWy/LPC/tree/main/Characters/Props/Sword%2001%20-%20Arming%20Sword,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/sword/arming/attack_slash/bg/gold.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy; walk and down by JaidynReiman",
+          "urls": "https://github.com/ElizaWy/LPC/tree/main/Characters/Props/Sword%2001%20-%20Arming%20Sword,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/sword/arming/attack_slash/fg/gold.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy; walk and down by JaidynReiman",
+          "urls": "https://github.com/ElizaWy/LPC/tree/main/Characters/Props/Sword%2001%20-%20Arming%20Sword,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/sword/arming/attack_backslash/bg/gold.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy; walk and down by JaidynReiman",
+          "urls": "https://github.com/ElizaWy/LPC/tree/main/Characters/Props/Sword%2001%20-%20Arming%20Sword,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/sword/arming/attack_backslash/fg/gold.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy; walk and down by JaidynReiman",
+          "urls": "https://github.com/ElizaWy/LPC/tree/main/Characters/Props/Sword%2001%20-%20Arming%20Sword,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/sword/arming/attack_halfslash/bg/gold.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy; walk and down by JaidynReiman",
+          "urls": "https://github.com/ElizaWy/LPC/tree/main/Characters/Props/Sword%2001%20-%20Arming%20Sword,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": ""
+        },
+        {
+          "fileName": "weapon/sword/arming/attack_halfslash/fg/gold.png",
+          "licenses": "OGA-BY 3.0",
+          "authors": "ElizaWy; walk and down by JaidynReiman",
+          "urls": "https://github.com/ElizaWy/LPC/tree/main/Characters/Props/Sword%2001%20-%20Arming%20Sword,https://opengameart.org/content/lpc-expanded-sit-run-jump-more",
+          "notes": ""
+        }
+      ]
+    }
+  },
+  "animation_types": {
+    "idle": {
+      "loop": true,
+      "default_fps": 5
+    },
+    "walk": {
+      "loop": true,
+      "default_fps": 8
+    },
+    "run": {
+      "loop": true,
+      "default_fps": 10
+    },
+    "jump": {
+      "loop": false,
+      "default_fps": 10
+    },
+    "slash": {
+      "loop": false,
+      "default_fps": 12,
+      "attack": true
+    },
+    "slash_oversize": {
+      "loop": false,
+      "default_fps": 12,
+      "attack": true
+    },
+    "slash_128": {
+      "loop": false,
+      "default_fps": 12,
+      "attack": true
+    },
+    "backslash": {
+      "loop": false,
+      "default_fps": 12,
+      "attack": true
+    },
+    "backslash_128": {
+      "loop": false,
+      "default_fps": 12,
+      "attack": true
+    },
+    "halfslash": {
+      "loop": false,
+      "default_fps": 12,
+      "attack": true
+    },
+    "halfslash_128": {
+      "loop": false,
+      "default_fps": 12,
+      "attack": true
+    },
+    "thrust": {
+      "loop": false,
+      "default_fps": 12,
+      "attack": true
+    },
+    "shoot": {
+      "loop": false,
+      "default_fps": 10
+    },
+    "hurt": {
+      "loop": false,
+      "default_fps": 8
+    },
+    "combat_idle": {
+      "loop": true,
+      "default_fps": 5
+    },
+    "sit": {
+      "loop": false,
+      "default_fps": 5
+    },
+    "emote": {
+      "loop": false,
+      "default_fps": 8
+    },
+    "climb": {
+      "loop": true,
+      "default_fps": 6
+    },
+    "spellcast": {
+      "loop": false,
+      "default_fps": 8
+    }
+  },
+  "directions": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "hitbox": {
+    "default": {
+      "width": 64,
+      "height": 128,
+      "offset_x": 32,
+      "offset_y": 96
+    },
+    "attack": {
+      "width": 96,
+      "height": 64,
+      "offset_x": 64,
+      "offset_y": 96
+    }
+  }
+}
