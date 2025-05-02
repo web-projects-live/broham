@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brother Battle - Fighting Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+    
+    <div class="controls-info">
+        <h2>Game Controls</h2>
+        <div class="controls-grid">
+            <div class="player-controls">
+                <h3>Player 1 (Big Brother)</h3>
+                <ul>
+                    <li><strong>W</strong> - Jump</li>
+                    <li><strong>A</strong> - Move Left</li>
+                    <li><strong>S</strong> - Crouch/Block</li>
+                    <li><strong>D</strong> - Move Right</li>
+                    <li><strong>Left Shift</strong> - Attack</li>
+                    <li><strong>Q</strong> - Run</li>
+                </ul>
+            </div>
+            <div class="player-controls">
+                <h3>Player 2 (Little Brother)</h3>
+                <ul>
+                    <li><strong>↑</strong> - Jump</li>
+                    <li><strong>←</strong> - Move Left</li>
+                    <li><strong>↓</strong> - Crouch/Block</li>
+                    <li><strong>→</strong> - Move Right</li>
+                    <li><strong>Space</strong> - Attack</li>
+                    <li><strong>Enter</strong> - Run</li>
+                </ul>
+            </div>
+        </div>
+        <div class="game-controls">
+            <h3>Game Controls</h3>
+            <ul>
+                <li><strong>P</strong> or <strong>ESC</strong> - Pause Game</li>
+                <li><strong>R</strong> - Restart (when game over)</li>
+                <li><strong>D</strong> - Toggle Debug Mode</li>
+                <li><strong>H</strong> - Toggle Hitboxes</li>
+            </ul>
+        </div>
+        <p class="debug-info">Click buttons in game to navigate menus</p>
+    </div>
+
+    <script src="js/sprite.js"></script>
+    <script src="js/collision.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
